@@ -10,6 +10,7 @@ namespace TasksProgCs
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
