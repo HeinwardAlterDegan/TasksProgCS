@@ -10,7 +10,8 @@ namespace TasksProgCs
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Введите k,m,n");
+            Console.
         }
     }
 }
