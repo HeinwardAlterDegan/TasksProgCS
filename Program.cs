@@ -11,7 +11,7 @@ namespace TasksProgCs
         static void Main(string[] args)
         {
             Console.WriteLine("Введите k,m,n");
-            Console.
+            int k,m,n = Int Parse(Console.ReadLine().Split(' '));
         }
     }
 }
