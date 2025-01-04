@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task7.2", "Task7.2\Task7.2.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task7.3", "..\Task7.3\Task7.3.csproj", "{51360D99-0F6D-4A80-88C7-8F435200D9E8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task7", "Task7", "{6253B382-776F-4C62-B48F-16B9618610CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7597F5F6-B898-4476-B828-424934E3ACBA} = {6253B382-776F-4C62-B48F-16B9618610CE}
+		{D3C3FFDD-6676-4EC9-BF08-D3F9AE743CBE} = {6253B382-776F-4C62-B48F-16B9618610CE}
+		{51360D99-0F6D-4A80-88C7-8F435200D9E8} = {6253B382-776F-4C62-B48F-16B9618610CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95576077-B07E-4366-8DBD-94A2E22304D8}
