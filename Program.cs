@@ -33,6 +33,7 @@ namespace TasksProgCs
             }
 
             Console.WriteLine($"Сумма кубов чисел от a до 500 ={product} ");
+            Console.ReadKey();
         }
 
         static bool TryInputNumber(out int number)
