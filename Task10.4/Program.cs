@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task10._3
+namespace Task10._4
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите натуральное число");
+            Console.WriteLine("");
             int n;
             if (!TryInputNumber(out n))
             {
@@ -20,15 +19,6 @@ namespace Task10._3
             }
 
 
-        
-
-            Console.WriteLine($"Вот поседовательность квадратов натуральных чисел от 0 до {n}");
-            for (int i = 0; i<=n; i++)
-            {
-
-                Console.WriteLine($"{Math.Pow(i,2)}");
-            }
-            Console.ReadKey() ;
         }
 
         static bool TryInputNumber(out int number)
