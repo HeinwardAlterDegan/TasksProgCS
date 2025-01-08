@@ -18,7 +18,12 @@ namespace Task10._3
                 Console.ReadKey();
                 return;
             }
-
+            if (n < 0) 
+            {
+             Console.WriteLine("n не является натуральным");
+             Console.ReadKey(); 
+             return; 
+            }
 
         
 
